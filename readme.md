@@ -30,4 +30,4 @@ To run the project locally:
 npm run dev
 ```
 
-2. 2. Open your web browser and navigate to [http://localhost:5174](http://localhost:5174) to interact with the project.
+2.  Open your web browser and navigate to [http://localhost:5174](http://localhost:5174) to interact with the project.
