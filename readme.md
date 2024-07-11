@@ -8,12 +8,12 @@ To set up the project, follow these steps:
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/Ouss-tagh-dev/ThreeJS-My-First-Example.git
+   git clone https://github.com/Ouss-tagh-dev/ThreeJS-My-First-Example-.git
 ```
 
 2. Navigate into the project directory:
 ```bash
-   cd ThreeJS-My-First-Example
+   cd ThreeJS-My-First-Example-
 ```
 
 3. Install dependencies:
