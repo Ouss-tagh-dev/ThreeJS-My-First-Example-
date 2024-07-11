@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.content {
+  text-align: center;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 65%;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+h1 {
+  color: #fff;
+}
+
+h2 {
+  color: #007bff;
+  font-weight: 900;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.text {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.projects {
+  margin-top: 40px;
+}
+
+.projects-table {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.projects-card {
+  width: calc(30% - 20px);
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.projects-card:hover {
+  transform: translateY(-5px) rotateY(360deg);
+  transition: transform 1s ease;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(-5px) rotateY(360deg);
+  -moz-transform: translateY(-5px) rotateY(360deg);
+  -ms-transform: translateY(-5px) rotateY(360deg);
+  -o-transform: translateY(-5px) rotateY(360deg);
+  -webkit-transition: transform 1s ease;
+  -moz-transition: transform 1s ease;
+  -ms-transition: transform 1s ease;
+  -o-transition: transform 1s ease;
+}
+
+
+.title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #2ffe00;
+}
+
+.info {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
